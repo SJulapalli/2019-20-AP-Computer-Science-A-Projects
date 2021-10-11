@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=ArraysHelper
+comment0.text=\n\ ArraysHelper.java\n\n\ Array\ helper\ methods\n\ Complete\ each\ of\ the\ static\ methods\ to\ perform\ the\ indicated\ task.\n\ Write\ code\ in\ the\ main\ method\ to\ test\ each\ method\n\ \n\ Suhas\ Julapall\n\ 1/15/19\n\ Period\ 5\n\n
+comment1.params=arr
+comment1.target=int\ arrayToInt(int[])
+comment1.text=\n\ \#1\ arrayToInt\ will\ convert\ an\ array\ of\ ints\ to\ an\ int\n\ PRECONDITION\:\ all\ elements\ of\ arr\ will\ be\ positive.\n\ POSTCONDITION\:\ the\ elements\ of\ arr\ will\ be\ in\ the\ same\ order.\n\ @param\ arr\ an\ array\ of\ ints\n\ @return\ an\ integer\ representation\ of\ the\ ints\ in\ the\ array\n\ {1,2,3,4}\ ->\ 1234\n\ {0,3,0,5}\ ->\ 305\n\ {1,0}\ ->\ 10\n
+comment2.params=num
+comment2.target=int[]\ intToArray(int)
+comment2.text=\n\ \#2\ intToArray\ will\ dissect\ an\ int\ into\ an\ array\ of\ ints\n\ PRECONDITION\:\ num\ >\=\ 0\n\ POSTCONDITION\:\ each\ element\ of\ the\ array\ returned\ will\ be\ a\ single\ digit\n\ @param\ num\ a\ number\ that\ is\ greater\ than\ or\ equal\ to\ zero\n\ @return\ an\ array\ representation\ of\ num\n\ 1234\ ->\ {1,2,3,4}\n\ 305\ ->\ {3,0,5}\n\ 10\ ->\ {1,0}\n\ 0\ ->\ {0}\n
+comment3.params=arr
+comment3.target=int\ indexOfZero(int[])
+comment3.text=\n\ \#3\ indexOfZero\ returns\ the\ index\ of\ the\ first\ occurrence\ of\ Zero,\ or\n\ \t\t\t-1\ if\ no\ zero\ exists\n\ @param\ arr\ an\ array\ of\ ints\n\ @return\ the\ index\ of\ the\ first\ zero,\ -1\ if\ no\ zero\ exists\n\ {1,2,3,4}\ ->\ -1\n\ {0,3,0,5}\ ->\ 0\n\ {1,0}\ ->\ 1\n
+comment4.params=arr
+comment4.target=int\ lastIndexOfZero(int[])
+comment4.text=\n\ \#4\ lastIndexOfZero\ returns\ the\ index\ of\ the\ last\ occurrence\ of\ Zero,\ or\ \n\ \t\t\t-1\ if\ no\ zero\ exists\n\ @param\ arr\ an\ array\ of\ ints\n\ @return\ the\ index\ of\ the\ last\ zero,\ -1\ if\ no\ zero\ exists\n\ {1,2,3,4}\ ->\ -1\n\ {0,3,0,5}\ ->\ 2\n\ {1,0}\ ->\ 1\n
+comment5.params=arr
+comment5.target=void\ setZeros(int[])
+comment5.text=\n\ \#5\ setZeros\ uses\ indexOZero\ and\ lastIndexOfZero\ to\ modify\ an\ array.\ \ All\ values\n\ \t\tbetween\ the\ first\ and\ last\ zero\ will\ be\ replaced\ by\ a\ zero.\ \ If\ only\ 1\ or\ no\ zeros\ exist,\n\ \t\tarray\ arr\ will\ remain\ unchanged\n\ @param\ arr\ an\ array\ of\ ints\n\ {1,2,3,4}\ ->\ {1,2,3,4}\n\ {0,3,0,5}\ ->\ {0,0,0,5}\n\ {1,0}\ ->\ {1,0}\n
+comment6.params=arr
+comment6.target=void\ reverseArray(int[])
+comment6.text=\n\ \#6\ reverseArray\ reverse\ the\ order\ of\ the\ elements\ in\ the\ array\ arr\n\ @param\ arr\ an\ array\ of\ ints\ to\ be\ reversed\n\ {1,2,3,4}\ ->\ {4,3,2,1}\n\ {0,3,0,5}\ ->\ {5,0,3,0}\n\ {1,0}\ ->\ {0,1}\n
+comment7.params=arr1\ arr2
+comment7.target=int[]\ combineArrays(int[],\ int[])
+comment7.text=\n\ \#7\ combineArrays\ merges\ two\ arrays\ (arr1\ and\ arr2)\ into\ a\ single\ array.\n\ \t\tElements\ will\ be\ merged\ in\ an\ alternating\ pattern.\ If\ arr1\ and\ arr2\n\ \ \tare\ not\ the\ same\ length,\ all\ additional\ elements\ will\ be\ appended\ to\ \n\ \ \tthe\ end\ of\ the\ array\ being\ returned\n\ @param\ arr1\ an\ array\ of\ ints\n\ @param\ arr2\ an\ array\ of\ ints\n\ @return\ an\ array\ of\ ints\ which\ is\ a\ merged\ listing\ of\ arr1\ and\ arr2\n\ {1,2,3,4}\ &\ {5,6,7,8}\ ->\ {1,5,2,6,3,7,4,8}\n\ {1,1,1,1}\ &\ {2,2}\ ->\ {1,2,1,2,1,1}\n\ {1,1}\ &\ {2,2,2,2}\ ->\ {1,2,1,2,2,2}\n
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+comment8.text=\n\ Main\ method\ to\ test\ code.\ \ Create\ any\ code\ you\ wish\ in\ the\ main\ method\n\ \t\tto\ test\ your\ methods\ and\ make\ sure\ they\ work.\n\ \n
+numComments=9

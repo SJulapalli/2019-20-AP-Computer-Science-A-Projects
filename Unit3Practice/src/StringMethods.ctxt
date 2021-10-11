@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=StringMethods
+comment0.text=\n\ Complete\ each\ of\ the\ practice\ methods\ for\ String\ manipulation.\n\ There\ is\ an\ include\ main\ method\ designed\ to\ test\ your\ code\n\ \n\ Suhas\ Julapalli\n\ 11/12/19\n\ Period\ 5\n\ \n
+comment1.params=str\ word
+comment1.target=java.lang.String\ wordInMiddle(java.lang.String,\ java.lang.String)
+comment1.text=\n\ wordInMiddle("computer",\ "science")\ ->\ "compscienceuter"\n\ wordInMiddle("science",\ "computer")\ ->\ "scicomputerence"\n
+comment2.params=str
+comment2.target=java.lang.String\ flippedString(java.lang.String)
+comment2.text=\n\ flippedString("computer")\ ->\ "utercomp"\n\ flippedString("science")\ ->\ "encesci"\n\ flippedString("AP")\ ->\ "PA"\n\ flippedString("A")\ ->\ "A"\n
+comment3.params=str
+comment3.target=java.lang.String\ flipFlopFirstLast(java.lang.String)
+comment3.text=\n\ flipFlopFirstLast("science")\ ->\ "eciencs"\n\ flipFlopFirstLast("computer")\ ->\ "romputec"\n\ flipFlopFirstLast("AP")\ ->\ "PA"\n\ \n\ \ PRECONDITION\:\ str.length()\ >\ 1\n
+comment4.params=str
+comment4.target=java.lang.String\ first2Last2(java.lang.String)
+comment4.text=\n\ first2Last2("computer")\ ->\ "coer"\n\ first2Last2("science")\ ->\ "scce"\n\ first2Last2("AP")\ ->\ "APAP"\n\ \n\ PRECONDITION\:\ str.length()\ >\ 1\n
+comment5.params=str
+comment5.target=java.lang.String\ first2Mid2Last2(java.lang.String)
+comment5.text=\n\ first2Mid2Last2("computer")\ ->\ "copuer"\n\ first2Mid2Last2("science")\ ->\ "sciece"\n\ first2Mid2Last2("AP")\ ->\ "APAPAP"\n\ \n\ PRECONDITION\:\ str.length()\ >\ 1\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ Main\ method\ to\ test\ all\ the\ methods.\n\ \n
+numComments=7

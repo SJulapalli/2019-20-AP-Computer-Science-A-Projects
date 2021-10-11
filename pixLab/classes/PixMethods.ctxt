@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PixMethods
+comment0.text=\n\ PixMethods.java\n\n\ \ PixLab\ graded\ methods\n\ \ For\ this\ task\ you\ will\ complete\ two\ Picture\ filters\ for\ the\ PixLab.\n\ \ 1)\ You\ will\ fully\ implement\ the\ anselAdams\ method\ which\ increases\ the\ black/white\n\ \ \ \ \ \ contrast\ of\ a\ grayscale\ image.\n\ \ 2)\ You\ will\ implement\ 2\ helper\ methods\ to\ make\ the\ andyWarhol\ method\ work\ as\ expected.\n\ \ \ \ \ \ a)\ primaryColors\ converts\ every\ Pixel\ in\ the\ image\ to\ a\ "primary\ color"\n\ \ \ \ \ \ b)\ rotateColors\ converts\ "primary\ colors"\ of\ an\ image\ to\ a\ different\ "primary\ color"\n\ \ \n\ \ For\ this\ project\:\ a\ primary\ color\ is\ defined\ as\ a\ color\ with\ color\ codes\ that\ are\ either\ 0\ or\ 255\ only.\n\n\ @Name\ (Your\ name)\n\ @Date\ (Due\ Date)\n\ @Period\ (Class\ Period)\n
+comment1.params=pix
+comment1.target=void\ anselAdams(Picture)
+comment1.text=\n\ Ansel\ Adams\ is\ a\ famous\ photographer,\ known\ for\ his\ deeply\ \n\ \ \ \ contrasted\ black\ and\ white\ images.\ \n\ Complete\ the\ anselAdams\ method\ so\ that\ it\ will\ take\ in\ a\ picture,\ \ \n\ \ \ \ \ \ convert\ it\ into\ a\ black\ and\ white\ image\ using\ the\ grayscale\ method\ \n\ \ \ \ \ \ from\ PixLab\ Activity\ A5,\ and\ enhance\ the\ contrast\ by\ making\ the\ \n\ \ \ \ \ \ darkest\ 25%\ of\ the\ grayscale\ image\ 5\ shades\ darker\ and\ the\ \n\ \ \ \ \ \ lightest\ 25%\ of\ the\ image\ 5\ shades\ lighter.\n\ Therefore\ a\ shade\ of\ gray\ that\ is\ java.awt.Color[r\=10,g\=10,b\=10]\n\ \ \ \ \ \ is\ set\ to\ java.awt.Color[r\=5,g\=5,b\=5]\ and\ java.awt.Color[r\=220,g\=220,b\=220]\n\ \ \ \ \ \ is\ set\ to\ java.awt.Color[r\=225,g\=225,b\=225].\n\ @param\ pix\ a\ Picture\ to\ be\ modified\n
+comment2.params=pix
+comment2.target=void\ andyWarhol(Picture)
+comment2.text=\n\ Andy\ Warhol\ was\ an\ American\ artist\ well\ known\ for\ his\ pop\ art.\ \ \n\ \ \ \ \ \ His\ works\ include\ the\ Marilyn\ Monroe\ Diptych\ which\ is\ a\ collage\n\ \ \ \ \ \ of\ images\ of\ Marilyn\ Monroe\ each\ with\ a\ different\ set\ of\ colors.\n\ The\ andyWarhol\ method\ will\ take\ any\ picture,\ scale\ it\ down\ to\ 25%\ and\ \n\ \ \ \ \ \ create\ a\ collage\ of\ 4\ versions\ of\ the\ image\ in\ the\ style\ of\ \n\ \ \ \ \ \ Andy\ Warhol\u2019s\ Marilyn\ Monroe.\ \n\ For\ this\ method\ to\ work\ you\ must\ complete\ the\ helpers\ methods\ primaryColors\ \n\ \ \ \ \ \ and\ rotateColors.\n
+comment3.params=pix
+comment3.target=void\ primaryColors(Picture)
+comment3.text=\n\ Complete\ the\ primaryColors\ method\ which\ takes\ in\ a\ picture\n\ \ \ \ \ \ and\ washes\ out\ every\ Pixel\ to\ be\ the\ nearest\ primary\ color.\n\ \n\ Therefore\:\ java.awt.Color[r\=10,g\=10,b\=10]\ is\ set\ to\ java.awt.Color[r\=0,g\=0,b\=0]\ \n\ \ \ \ \ \ and\ java.awt.Color[r\=220,g\=220,b\=220]\ is\ set\ to\ java.awt.Color[r\=255,g\=255,b\=255]\n\ \ \ \ \ \ and\ java.awt.Color[r\=10,g\=100,b\=200]\ is\ set\ to\ java.awt.Color[r\=0,g\=0,b\=255].\n\ For\ this\ method\ consider\ a\ primary\ color\ to\ be\ any\ color\ such\ that\ its\ RGB\ values\ are\ either\ 0\ or\ 255.\n
+comment4.params=pix
+comment4.target=void\ rotateColors(Picture)
+comment4.text=\n\ Complete\ the\ rotateColors\ method\ which\ takes\ in\ a\ picture\n\ \ \ \ \ \ and\ rotates\ the\ color\ of\ every\ Pixel\ to\ be\ the\ next\ primary\ color\ in\ the\ given\n\ \ \ \ \ \ array\ of\ colors.\n\ \n\ Therefore\:\ Color.WHITE\ is\ set\ to\ Color.RED\ \n\ \ \ \ \ \ and\ Color.RED\ is\ set\ to\ Color.YELLOW\n\ \ \ \ \ \ and\ Color.MAGENTA\ is\ set\ to\ Color.WHITE.\n\ For\ this\ method\ consider\ a\ primary\ color\ to\ be\ any\ color\ such\ that\ its\ RGB\ values\ are\ either\ 0\ or\ 255.\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\n\ Run\ this\ to\ see\ your\ methods\ in\ action.\n
+numComments=6

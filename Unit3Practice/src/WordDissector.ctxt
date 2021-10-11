@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WordDissector
+comment0.text=\n\ WordDissector.java\ -\ \#gk12579\n\n\ WordDissector\ application\n\ Determine\ the\ number\ of\ letters,\ consonants,\ vowels,\ and\ Scrabble\ value\ for\ a\ word.\n\ Do\ not\ alter\ or\ delete\ any\ existing\ comments,\ code\ or\ variables\ unless\ prompted\ to\ do\ so.\n\ Your\ code\ MUST\ exist\ in\ the\ designated\ locations\ in\ this\ starter\ code.\n\ \n\ Suhas\ Julapalli\n\ 12/13/2019\n\ Period\ 5\n\n
+comment1.params=str
+comment1.target=boolean\ isValid(java.lang.String)
+comment1.text=\n\ Part\ a\n\ Helper\ method\ to\ determine\ if\ str\ is\ a\ VALID\ word\n\ A\ valid\ word\ includes\ only\ letters\ and\ no\ other\ symbols\n\ No\ print,\ printf,\ println\ statements\ allowed\ in\ this\ method\n\ \n\ @return\ true\ if\ str\ includes\ only\ letters,\ false\ otherwise.\n
+comment2.params=str
+comment2.target=void\ dissect(java.lang.String)
+comment2.text=\n\ Part\ b\n\ Method\ to\ dissect\ the\ word\ completely\n\ PRECONDITION\:\ str\ is\ a\ valid\ word\n\ Determines\ the\ wordLength,\ consonantCount,\ vowelCount,\ and\ scrabbleScore.\n\ Uses\ the\ given\ printf\ statements\ to\ output\ the\ values.\n\ \n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ Part\ c\n\ Complete\ the\ main\ method\ to\ ask\ if\ the\ user\ would\ like\ to\ enter\ another\ word.\n\ -Prompt\ to\ user\ should\ look\ identical\ to\ the\ project\ write\ up.\n\ -Will\ continue\ to\ request\ an\ appropriate\ response\ from\ the\ user\ until\ yes\ or\ no\ is\ given.\n\ -Responses\ will\ be\ accepted\ without\ case\ sensitivity.\n\ -No\ break\ statements,\ or\ System.exit\ statements\ are\ allowed.\n\ -Program\ must\ be\ able\ to\ terminate\ itself\ with\ user\ input\ of\ "no".\n
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ConditionalStatements
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=year
+comment2.target=java.lang.String\ isLeapYear(int)
+comment2.text=\n\ Determine\ leap\ years\ and\ non-leap\ years\ based\ on\ the\ rules\ provided\ in\ the\ write\ up\n\ Address\ years\ that\ are\ not\ part\ of\ the\ Gregorian\ Calendar\n\ Use\ a\ complete\ sentence\ for\ your\ output\ messages\n\ \n\ @param\ year\n\ @return\ a\ String\ based\ off\ of\ the\ year\n
+comment3.params=userPlay
+comment3.target=java.lang.String\ rockPaperScissors(java.lang.String)
+comment3.text=\n\ Play\ Rock,\ Paper,\ Scissors\n\ \n\ @param\ userPlay\n\ @return\ the\ game\ play\ message\n
+numComments=4
